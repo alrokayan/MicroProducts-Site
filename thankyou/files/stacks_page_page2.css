@@ -3,3 +3,97 @@
 	font-size: 101%;
 	font-weight: bold;
 }
+
+#stacks_in_77_page2 .stacks_left {
+	float:left;
+	width:32%;
+}
+
+#stacks_in_77_page2 .stacks_right {
+	float:right;
+	width:32%;
+}
+
+#stacks_in_77_page2 .stacks_middle {
+	position:relative;
+	margin:0 auto;
+	width:32%;
+}
+#stacks_in_82_page2 {
+	text-transform: capitalize;
+}
+
+#stacks_in_81_page2 {
+	border: solid #999999;
+	border-width: 0px 0px 1px 0px;
+	padding: 5px 0px 5px 0px;
+}
+
+#stacks_in_84_page2 {
+	font-size: 95%;
+}
+
+#stacks_in_83_page2 {
+	border: solid #999999;
+	border-width: 0px 0px 1px 0px;
+	padding: 5px 0px 5px 0px;
+}
+
+#stacks_in_79_page2 {
+	padding: 5px 10px 5px 10px;
+}
+
+#stacks_in_89_page2 {
+	text-transform: capitalize;
+}
+
+#stacks_in_88_page2 {
+	border: solid #999999;
+	border-width: 0px 0px 1px 0px;
+	padding: 5px 0px 5px 0px;
+}
+
+#stacks_in_91_page2 {
+	font-size: 95%;
+}
+
+#stacks_in_90_page2 {
+	border: solid #999999;
+	border-width: 0px 0px 1px 0px;
+	padding: 5px 0px 5px 0px;
+}
+
+#stacks_in_86_page2 {
+	padding: 5px 10px 5px 10px;
+}
+
+#stacks_in_96_page2 {
+	text-transform: capitalize;
+}
+
+#stacks_in_95_page2 {
+	border: solid #999999;
+	border-width: 0px 0px 1px 0px;
+	padding: 5px 0px 5px 0px;
+}
+
+#stacks_in_98_page2 {
+	font-size: 95%;
+}
+
+#stacks_in_97_page2 {
+	border: solid #999999;
+	border-width: 0px 0px 1px 0px;
+	padding: 5px 0px 5px 0px;
+}
+
+#stacks_in_93_page2 {
+	padding: 5px 10px 5px 10px;
+}
+
+#stacks_in_77_page2 {
+	border: solid #999999;
+	border-width: 3px 0px 0px 0px;
+	margin: 20px 0px 0px 0px;
+	padding: 20px 0px 0px 0px;
+}
