@@ -1,67 +1,141 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="generator" content="RapidWeaver" />
-		
-		<title>Home</title>
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/alpha/styles.css"  />
-		<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/alpha/ie6.css"  /><![endif]-->
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/alpha/colourtag-theme-default.css"  />
-		<link rel="stylesheet" type="text/css" media="print" href="rw_common/themes/alpha/print.css"  />
-		<link rel="stylesheet" type="text/css" media="handheld" href="rw_common/themes/alpha/handheld.css"  />
-		<!--[if IE 6]><style type="text/css" media="screen">body {behavior: url(rw_common/themes/alpha/csshover.htc);}</style><![endif]-->
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/alpha/css/width/700.css" />
-		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/alpha/css/sidebar/sidebar_right.css" />
-				
-				
-		<script type="text/javascript" src="rw_common/themes/alpha/javascript.js"></script>
-		
-		<!--[if IE 6]><script type="text/javascript" charset="utf-8">
-			var blankSrc = "rw_common/themes/alpha/png/blank.gif";
-		</script>	
-		<style type="text/css">
-			img.pngfix {
-				behavior:	url("rw_common/themes/alpha/png/pngbehavior.htc");
-			}
-		</style><![endif]-->
-		
-		
-	</head>
-<body>
-<div id="bodyGrad">
-	<img class="pngfix" src="rw_common/themes/alpha/images/body_grad.png" alt="" style="width: 3000px; height: 400px;" />
+    <head>
+        <title>Home | الصفحة الرئيسية</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- User defined head content such as meta tags and encoding options -->
+        <script type="text/javascript" src="rw_common/themes/baukraft/javascript.js"></script>
+        <!-- Google AJAX Libraries - jQuery 1.4.3 -->
+        <script src="http://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+            google.load("jquery", "1.4.3");
+        </script>
+        <!-- Fontface -->
+        <style type="text/css" media="all">
+
+            @font-face {
+                font-family: 'LiberationSerifRegular';
+                src: url('rw_common/themes/baukraft/fonts/liberationserif-regular-webfont.eot');
+                src: local('‚ò∫'), url('rw_common/themes/baukraft/fonts/liberationserif-regular-webfont.woff') format('woff'),
+                url('rw_common/themes/baukraft/fonts/liberationserif-regular-webfont.ttf') format('truetype'),
+                url('%pathto(fonts/liberationserif-regular-webfont.svg#webfontW3XDV1aI)%') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: 'LiberationSerifBold';
+                src: url('rw_common/themes/baukraft/fonts/liberationserif-bold-webfont.eot');
+                src: local('‚ò∫'), url('rw_common/themes/baukraft/fonts/liberationserif-bold-webfont.woff') format('woff'),
+                url('rw_common/themes/baukraft/fonts/liberationserif-bold-webfont.ttf') format('truetype'),
+                url('%pathto(fonts/liberationserif-bold-webfont.svg#webfontDS0SHySh)%') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+        </style>        
+        <!-- jquery custom code -->
+        <script type="text/javascript" src="rw_common/themes/baukraft/js/theme.js"></script>
+        <script type="text/javascript" src="rw_common/themes/baukraft/js/DD_belatedPNG_0.0.8a.js"></script>
+        <link rel="stylesheet" href="rw_common/themes/baukraft/css/reset.css" type="text/css" media="screen" charset="utf-8" />
+        <link rel="stylesheet" href="rw_common/themes/baukraft/css/960.css" type="text/css" media="screen" charset="utf-8" />
+        <link rel="stylesheet" href="rw_common/themes/baukraft/css/text.css" type="text/css" media="screen" charset="utf-8" />        
+        <link rel="stylesheet" href="rw_common/themes/baukraft/styles.css" type="text/css" media="screen" charset="utf-8" />
+        <link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/baukraft/css/text/default.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/baukraft/css/header_font_size/medium.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/baukraft/css/header/visibility/on.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/baukraft/css/header_image/header_image00.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/baukraft/css/container_font_size/medium.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/baukraft/css/sidebar/sidebar_hide.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/baukraft/css/sidebar_font_size/medium.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/baukraft/css/footer_font_size/medium.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/baukraft/css/breadcrumb/position/top.css" />
+		<!-- Style variations - these are set up in the theme.plist -->
+        <!-- User defined styles -->
+        <!-- User defined javascript -->
+        		<link rel='stylesheet' type='text/css' media='all' href='rw_common/plugins/stacks/stacks.css' />
+		<!--[if lte IE 7]>
+			<link rel='stylesheet' type='text/css' media='all' href='rw_common/plugins/stacks/stacks_ie.css' />
+		<![endif]-->
+		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page1.css' />
+		<script type='text/javascript' charset='utf-8' src='files/stacks_page_page1.js'></script>
+
+        
+        <!--[if IE]>
+            <link rel="stylesheet" href="rw_common/themes/baukraft/css/styles-ie6.css" type="text/css" media="screen" charset="utf-8" />
+        <![endif]-->        
+        <!--[if IE 6]>
+            <script type="text/javascript" src="rw_common/themes/baukraft/js/theme-ie.js"></script>
+            <script type="text/javascript" src="rw_common/themes/baukraft/js/DD_belatedPNG_0.0.8a.js"></script>
+            <script>
+                DD_belatedPNG.fix('#bg, #navcontainer-01 li, img');
+            </script>
+        <![endif]-->        
+    </head>
+    <!-- This page was created with RapidWeaver from Realmac Software. http://www.realmacsoftware.com -->
+    <body>
+        <div id="bg"></div>        
+        <div id="pageHeader" class="container_16 clearfix">
+            <div id="navcontainer-01" class="grid_16">
+                <div id="navbar">
+                    <ul><li><a href="index.html" rel="self" class="current"><span>Home | الصفحة الرئيسية</span></a></li><li><a href="mp/index.html" rel="self"><span>About | عن المنتجات الدقيقه</span></a></li><li><a href="eCommerce/index.html" rel="self"><span>eCommerce | المتاجر الإلكترونية</span></a></li><li><a href="email/index.html" rel="self"><span>Contact Us | إتصل بنا</span></a></li></ul>
+                </div>
+            </div><!-- #navcontainer-01 --> 
+            <div id="title" class="grid_16">
+                <div id="logo">
+                    
+                </div><!-- #logo -->
+                <h1>MicroProducts - المنتجات الدقيقه</h1>
+            </div>
+            <h2 id="slogan" class="grid_16">Increase Your Visibility To The World - قم بزيادة ظهورك للعالم</h2>
+        </div><!-- End page header -->
+        <div id="headerImageContainer" class="container_16">
+            <div id="headerImage">
+            </div>
+        </div>
+        <div id="top-breadcrumbcontainer" class="clearfix container_16">
+            
+        </div><!-- #breadcrumbcontainer -->
+        <div id="container" class="content container_16">
+            <div id="contentContainer" class="grid_12">
+                <div id="content">
+                    
+
+<!-- Stacks v1 --><div id='stacks_out_0_page1' class='stacks_top'><div id='stacks_in_0_page1' class='stacks_in'><div id='stacks_out_779_page1' class='stacks_out'><div id='stacks_in_779_page1' class='stacks_in'><div id='stacks_out_781_page1' class='stacks_out'><div id='stacks_in_781_page1' class='stacks_in'><br />MicroProducts is an eCommerce system provider. </div></div></div></div><div id='stacks_out_405_page1' class='stacks_out'><div id='stacks_in_405_page1' class='stacks_in'><div id='stacks_out_406_page1' class='stacks_out'><div id='stacks_in_406_page1' class='stacks_in'><div id='stacks_out_408_page1' class='stacks_out'><div id='stacks_in_408_page1' class='stacks_in'><div class='stacks_div stacks_left'>
+<div id='stacks_out_435_page1' class='stacks_out'><div id='stacks_in_435_page1' class='stacks_in'><div id='stacks_out_437_page1' class='stacks_out'><div id='stacks_in_437_page1' class='stacks_in'><span id='stacks_in_438_page1'>Who we are</span></div></div><div id='stacks_out_439_page1' class='stacks_out'><div id='stacks_in_439_page1' class='stacks_in'><span id='stacks_in_440_page1'>MicroProducts is a small Saudi organisation provides <span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">eCommerce</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">solutions</span><span style="font:12px GeezaPro; ">.<br /><br /></span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">MicroProducs</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">Saudi</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">Busniess</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">Record</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">Number:</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">1010211796.<br /><br /></span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; "><a href="mp/index.html" rel="self" title="About | عن المنتجات الدقيقه">Read more ..</a></span></span></div></div></div></div>
 </div>
-<div id="container"><!-- Start container -->
-	<div id="pageHeader"><!-- Start page header -->
-		<div id="grad"><img class="pngfix" src="rw_common/themes/alpha/images/header_top_grad.png" alt="" style="width: 3000px; height: 72px;" /></div>
-		
-		<h1>MicroProducts</h1>
-		<h2>Professional Online Services</h2>
-	</div><!-- End page header -->
-	<div id="navcontainer"><!-- Start Navigation -->
-		<ul><li><a href="index.html" rel="self" id="current">Home</a></li></ul>
-	</div><!-- End navigation -->
-	<div class="clearer"></div>
-	<div id="sidebarContainer"><!-- Start Sidebar wrapper -->
-		<div id="sidebar"><!-- Start sidebar content -->
-			<h1 class="sideHeader"></h1><!-- Sidebar header -->
-			<!-- sidebar content you enter in the page inspector -->
-			 <!-- sidebar content such as the blog archive links -->
-		</div><!-- End sidebar content -->
-	</div><!-- End sidebar wrapper -->
-	<div id="contentContainer"><!-- Start main content wrapper -->
-		<div id="content"><!-- Start content -->
-			
-		</div><!-- End content -->
-	</div><!-- End main content wrapper -->
-	<div class="clearer"></div>
-	<div id="footer"><!-- Start Footer -->
-		<p>&copy; 2003-2013 MicroProducts <a href="#" id="rw_email_contact">Contact Me</a><script type="text/javascript">var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":in";var _rwObsfuscatedHref3 = "fo@";var _rwObsfuscatedHref4 = "mp.";var _rwObsfuscatedHref5 = "com";var _rwObsfuscatedHref6 = ".sa";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6; document.getElementById('rw_email_contact').href = _rwObsfuscatedHref;</script></p>
-		<div id="breadcrumbcontainer"><!-- Start the breadcrumb wrapper -->
-			
-		</div><!-- End breadcrumb -->
-	</div><!-- End Footer -->
-</div><!-- End container -->
-</body>
+<div class='stacks_div stacks_right'>
+<div id='stacks_out_442_page1' class='stacks_out'><div id='stacks_in_442_page1' class='stacks_in'><div id='stacks_out_444_page1' class='stacks_out'><div id='stacks_in_444_page1' class='stacks_in'><span id='stacks_in_445_page1'><div align="right" style="direction: rtl;">
+من نحن
+</div></span></div></div><div id='stacks_out_446_page1' class='stacks_out'><div id='stacks_in_446_page1' class='stacks_in'><span id='stacks_in_447_page1'><div align="right" style="direction: rtl;"><br /><span style="font:12px GeezaPro; ">المنتجات</span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; "> </span><span style="font:12px GeezaPro; ">الدقيقه</span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; "> </span><span style="font:12px GeezaPro; ">هي</span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; "> </span><span style="font:12px GeezaPro; ">مؤسسة سعودية تقوم بتوفير حلول للمتاجر الإلكترونية.<br /><br />رقم السجل التجاري</span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">:</span><span style="font:12px GeezaPro; "> ١٠١٠٢١١٧٩٦</span><br /><br /><span style="font:12px GeezaPro; "><a href="mp/index.html" rel="self" title="About | عن المنتجات الدقيقه">يمكنك</a></span><a href="mp/index.html" rel="self" title="About | عن المنتجات الدقيقه"> </a><span style="font:12px GeezaPro; "><a href="mp/index.html" rel="self" title="About | عن المنتجات الدقيقه">قراءة المزيد ..</a></span><br /></div></span></div></div></div></div>
+</div>
+<div class='stacks_div stacks_middle'>
+<div id='stacks_out_449_page1' class='stacks_out'><div id='stacks_in_449_page1' class='stacks_in'><div id='stacks_out_451_page1' class='stacks_out'><div id='stacks_in_451_page1' class='stacks_in'><span id='stacks_in_452_page1'><div align="center">
+contact us - إتصل بنا
+<div></span></div></div><div id='stacks_out_453_page1' class='stacks_out'><div id='stacks_in_453_page1' class='stacks_in'><span id='stacks_in_454_page1'><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">To</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">contact</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">us</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">please</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">fill</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">the</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; "><a href="email/index.html" rel="self" title="Contact Us | إتصل بنا">form</a></span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">here,</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">or</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">send</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">us</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">an</span><span style="font:12px GeezaPro; "> </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">email to: info@mp.com.sa<br /><br /></span><div align="right" style="direction: rtl;"><br /><span style="font:12px GeezaPro; ">يمكنك الإتصال علينا وذلك عن طريق تعبئة النموذج من </span><span style="font:12px GeezaPro; "><a href="email/index.html" rel="self" title="Contact Us | إتصل بنا">هنا</a></span><span style="font:12px GeezaPro; ">، أو إرسال رسالة إلكترونية إلى </span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">info</span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">@</span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">mp</span><span style="font:12px GeezaPro; ">.</span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">com</span><span style="font:12px GeezaPro; ">.</span><span style="font:12px &#39;Lucida Grande&#39;, LucidaGrande, Verdana, sans-serif; ">sa</span><br /></div></span></div></div></div></div>
+</div></div></div></div></div></div></div></div></div><!-- End of Stacks Content -->
+
+
+
+                </div><!-- End content -->
+            </div><!-- End main content wrapper -->
+            <div id="sidebarContainer" class="grid_4">
+                <div class="sideHeader">
+                    <h2></h2>
+                </div><!-- Sidebar header -->
+                <div id="sidebar">
+                    <!-- sidebar content you enter in the page inspector -->
+                    <div id="plugin">
+                         <!-- sidebar content such as the blog archive links -->
+                    </div><!-- #plugin -->
+                </div><!-- End sidebar content -->
+            </div><!-- End sidebar wrapper -->
+        </div><!-- End container -->
+        <div id="bottom-breadcrumbcontainer" class="clearfix container_16">
+            
+        </div><!-- #breadcrumbcontainer -->
+        <div id="footer" class="container_16">
+            <p>&copy; 2011-2013 المنتجات الدقيقه <a href="#" id="rw_email_contact">إتصل بنا</a><script type="text/javascript">var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":in";var _rwObsfuscatedHref3 = "fo@";var _rwObsfuscatedHref4 = "mp.";var _rwObsfuscatedHref5 = "com";var _rwObsfuscatedHref6 = ".sa";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6; document.getElementById('rw_email_contact').href = _rwObsfuscatedHref;</script></p>
+        </div><!-- End Footer -->
+    </body>
 </html>

@@ -3,4 +3,13 @@
 	<url>
 		<loc>http://mp.com.sa/index.html</loc>
 	</url>
+	<url>
+		<loc>http://mp.com.sa/mp/index.html</loc>
+	</url>
+	<url>
+		<loc>http://mp.com.sa/eCommerce/index.html</loc>
+	</url>
+	<url>
+		<loc>http://mp.com.sa/email/index.html</loc>
+	</url>
 </urlset>
